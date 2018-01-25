@@ -9,7 +9,7 @@ class Modal extends Component{
     // checks if show got updated. Won't update OrderSummary(props.children) until show updates. 
     // this is a performance boost
     shouldComponentUpdate(nextProps, nextState) {
-        return nextProps.show !== this.props.show
+        return nextProps.show !== this.props.show || nextProps.children !== this.props.children
     }
 
     componentWillUpdate() {
