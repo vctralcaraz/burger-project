@@ -4,7 +4,7 @@
   border-radius: 50%;
 }
 .Loader {
-  color: #521751;
+  color: purple;
   font-size: 11px;
   text-indent: -99999em;
   margin: 55px auto;
@@ -33,7 +33,7 @@
   -webkit-animation: load2 2s infinite ease 1.5s;
   animation: load2 2s infinite ease 1.5s;
 }
-.loader:after {
+.Loader:after {
   width: 5.2em;
   height: 10.2em;
   background: #fff;
